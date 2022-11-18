@@ -1,3 +1,5 @@
+import 'package:carrot_market/theme.dart';
+import 'package:carrot_market/view/pages/main/main_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -5,10 +7,15 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  const MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp();
+    return MaterialApp(
+      title: "carrot_market_ui",
+      debugShowCheckedModeBanner: false,
+      theme: theme(),
+      home: MainPage(),
+    );
   }
 }
