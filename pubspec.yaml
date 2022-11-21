@@ -15,6 +15,7 @@ dependencies:
   google_fonts: ^3.0.1  #font설정
   font_awesome_flutter: ^10.2.1 #icon
   intl: ^0.17.0 #데이터 포맷(날짜포맷, 숫자포맷)
+  cached_network_image: ^3.2.1
 
 
 dev_dependencies:
